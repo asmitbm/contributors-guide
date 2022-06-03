@@ -23,6 +23,6 @@
 
 # Contributing to Weaviate
 
-🎉 First off, thanks for taking the time to contribute! 🎉
+🎉 First off, thank you for taking the time to contribute! 🎉
 
-We are delighted to have you here. We are thrilled that you want to contribute to the Weaviate core. Your assistance is required to keep it great. Engage freely with the community, and participation is encouraged. As you become more acquainted with the community, there are several initiatives to consider, which are listed below. Everyone is welcome to join our [Slack](https://weaviate.slack.com/) channel and interact with other members of the community. Please change your Slack workspace display name to your full name so that you can connect with other members more easily. 
+We are delighted to have you here. We are thrilled that you want to contribute to the Weaviate core. Your assistance is required to keep it great. As you become more acquainted with the community, there are several initiatives to consider, which are listed below. Everyone is welcome to join our [Slack](https://weaviate.slack.com/) channel and interact with other members of the community. Please change your Slack workspace display name to your full name so that you can connect with other members more easily. 
