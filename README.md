@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/twitter/follow/weaviate_io?logo=twitter&style=flat-square" /></a>
 </p>
 
-<h5><p align="center"><i>If you’re using Weaviate or if you like the project, please <a href="https://github.com/semi-technologies/weaviate">⭐</a> this repository to show your support!</i></p></h5>
+<h5><p align="center">If you’re using Weaviate or if you like the project, please <a href="https://github.com/semi-technologies/weaviate">⭐</a> this repository to show your support!</p></h5>
 
 [Weaviate](https://weaviate.io/) is a cloud-native, modular, real-time vector search engine
 
