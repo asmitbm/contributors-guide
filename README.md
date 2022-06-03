@@ -1,6 +1,6 @@
 > Refer [to-do](/TO-DO.md) for next steps
 
-# Welcome to the Weaviate's Contributing Guide
+<h1><p align="center"> Welcome to the Weaviate's Contributing Guide </p></h1>
 
 <p align="center">
 <a href="https://hub.docker.com/r/semitechnologies/weaviate" alt="Docker pulls">
