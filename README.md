@@ -1,5 +1,7 @@
 > Refer [to-do](/TO-DO.md) for next steps
 
+<p style="text-align:center;" align="center"><a href="https://weaviate.io/"><img align="center" src="./assets/Weaviate.png" width="80%"></a></p>
+
 <h1><p align="center"> Welcome to the Weaviate's Contributing Guide </p></h1>
 
 <p align="center">
