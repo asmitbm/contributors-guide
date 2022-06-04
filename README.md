@@ -29,3 +29,19 @@ We are delighted to have you here. We are thrilled that you want to contribute t
 
 **We would recommend you to checkout these resources**
 
+Here are some suggested resources that would help you familiarize with Weaviate and it's applications:
+
+* [Awesome Weaviate](https://github.com/semi-technologies/awesome-weaviate): 
+    
+     List of curated examples and tutorials of how to use the Weaviate Vector Search Engine. 
+     
+* [Weaviate Examples](https://github.com/semi-technologies/weaviate-examples): 
+
+     Contains various examples created by the community to show different use cases of Weavaite. You can add your own examples too!
+     
+* [Weaviate's YouTube Channel](https://www.youtube.com/c/SeMI-and-Weaviate/featured): 
+
+     This channel is about all topics around vector search, and about the open-source vector search engine Weaviate. You will find informative podcasts and live demostration of different modules here.
+     
+## Ways of Contributing
+
