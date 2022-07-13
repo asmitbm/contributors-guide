@@ -22,3 +22,93 @@ Enhancement suggestions are tracked as GitHub issues. Check if there's already a
 * **Include images, animated GIFs, or video links** that can be used to illustrate the steps or highlight the area of Weaviate that the suggestion relates to.
 * **Explain why this enhancement would be useful** to most Weaviate users.
 * Specify which **version of Weaviate** you're using. Check the version in your `docker-compose.yml` file.
+
+#### Folder Structure
+
+```
+.
+├── adapters 
+│   ├── client 
+│   ├── handlers
+│   │   ├── graphql
+│   │   └── rest
+│   └── repos
+│       ├── classifications
+│       ├── db
+│       ├── modules
+│       └── schema
+├── ci
+├── client
+│   ├── batch
+│   ├── classifications
+│   ├── graphql
+│   ├── meta
+│   ├── obejcts
+│   ├── operations
+│   ├── schema
+│   └── well-known
+├── cmd
+|   └── weaviate-server
+├── deprecations
+├── docker-compose
+├── entities
+│   ├── additional
+│   ├── aggregation
+│   ├── filters
+│   ├── models
+│   ├── modulecapabilities
+│   ├── moduletools
+│   ├── multi
+│   ├── schema
+|   |   └── crossref
+│   ├── search
+│   ├── searchparams
+│   ├── storagestate
+│   └── storobj
+├── genesis
+│   ├── client
+|   |   └── operations
+│   ├── cmd
+|   |   └── weaviate-genesis-server
+│   ├── models
+│   ├── restapi
+|   |   └── operations
+│   ├── state
+│   ├── test
+|   |   └── acceptance
+│   ├── tools
+├── modules
+│   ├── img2vec-neural
+│   ├── multi2vec-clip
+│   ├── ner-transformers
+│   ├── qna-transformers
+│   ├── text-spellcheck
+│   ├── text2vec-contextionary
+│   ├── text2vec-openai
+│   └── text2vec-transformers
+├── openapi-specs
+├── test
+|   ├── acceptance
+|   ├── helper
+|   └── integration
+├── tools
+│   ├── dev
+│   ├── license_headers
+│   ├── release_template
+│   └── test
+└── usecases
+    ├── auth
+    ├── classification
+    ├── cluster
+    ├── config
+    ├── connstate
+    ├── locks
+    ├── modules
+    ├── monitoring
+    ├── network
+    ├── objects
+    ├── schema
+    ├── sharding
+    ├── traverser
+    └── vectorizer
+```
