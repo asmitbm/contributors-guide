@@ -9,7 +9,7 @@ We recommend you to check the Weaviate Module System to get better understanding
 * [Overview and High-Level Architecture](https://weaviate.io/developers/contributor-guide/current/weaviate-module-system/overview.html)
 * [Code-Level Architecture](https://weaviate.io/developers/contributor-guide/current/weaviate-module-system/architecture.html)
 
-Be sure to checkout the [folder structure](Folder-structure.md) to get high level overview of the repository.
+Be sure to checkout the [folder structure](#folder-structure) to get high level overview of the repository.
 
 #### How do I make a (good) suggestion for improvement?
 
@@ -22,6 +22,12 @@ Enhancement suggestions are tracked as GitHub issues. Check if there's already a
 * **Include images, animated GIFs, or video links** that can be used to illustrate the steps or highlight the area of Weaviate that the suggestion relates to.
 * **Explain why this enhancement would be useful** to most Weaviate users.
 * Specify which **version of Weaviate** you're using. Check the version in your `docker-compose.yml` file.
+
+#### Setting up your development environment
+
+There are multiple ways to set up a Weaviate instance. For a testing setup, we recommend you start with docker-compose. Cloud deployment can be used for small and larger projects. For production setup and/or large scale projects, we encourage you to use Kubernetes.
+
+For setting up your development environment, go through this detailed [quickstart guide](https://weaviate.io/developers/weaviate/current/getting-started/quick-start.html).
 
 #### Folder Structure
 
