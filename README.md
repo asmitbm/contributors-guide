@@ -1,5 +1,3 @@
-> Refer [to-do](/TO-DO.md) for next steps
-
 <p style="text-align:center;" align="center"><a href="https://weaviate.io/"><img align="center" src="./assets/Weaviate.png" width="80%"></a></p>
 
 <h1><p align="center"> Welcome to the Weaviate's Contributing Guide </p></h1>
@@ -21,7 +19,7 @@
 
 <h5><p align="center">If you’re using Weaviate or if you like the project, please <a href="https://github.com/semi-technologies/weaviate">⭐</a> this repository to show your support!</p></h5>
 
-[Weaviate](https://weaviate.io/) is a cloud-native, modular, real-time vector search engine
+[Weaviate](https://weaviate.io/) is a cloud-native, modular, real-time vector search engine.
 
 # Contributing to Weaviate
 
@@ -43,7 +41,15 @@ Here are some suggested resources that would help you familiarize with Weaviate 
      
 * [Weaviate's YouTube Channel](https://www.youtube.com/c/SeMI-and-Weaviate/featured): 
 
-     This channel is about all topics around vector search, and about the open-source vector search engine Weaviate. You will find informative podcasts and live demostration of different modules here.
+     This channel is about all topics around Weaviate and vector search in general. You will find informative podcasts and live demonstration of different modules here.
      
-## Ways of Contributing
 
+# Join Weaviate Community
+
+To get involved with our community, please make sure you are familiar with the project's [Code of Conduct](https://www.semi.technology/playbooks/misc/code-of-conduct.html).
+
+We understand that navigating a new open source project can be difficult, and that it takes time to become acquainted with the code base. If at any point of time, you face any difficulties, don't hesitate to ask your doubts in `#general` channel on our [Slack](https://weaviate.slack.com/). Our team and community will help you solve your problem. 
+
+Reach out to members of the community, introduce yourself, and share your ideas/doubts. Tell them about your areas of interest and what technologies you are using to build your projects. The more they know about you, the better they will be able to match project requirements to your interests and abilities.
+
+Subscribe to our [Newsletter](http://weaviate-newsletter.semi.technology/) to stay updated on the project's status.
