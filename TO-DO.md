@@ -13,8 +13,19 @@ This is the to-do file for the contributors guide.
     * Examples of contribution
     * (idea) talk about GSoC and GSoD as an idea for the future that the newcomers could join
   
-  * [Stretch] How to contribute page:
-    * How to provide feedback
-    * Step by step on how to contribute:
-    * Submit a bugfix / docs
-    * How to create a PR
+  * How to contribute page:
+      * Step by step on how to contribute:
+          * How to suggest enhancements -  Weaviate core
+             * [Paragraph] on what is the purpose of this
+             * [bullets] What this will include
+          * How to report bugs
+          * How to contribute to documentation 
+          * How to write blog posts
+          * How to get help (not sure this is the right)
+          * How to use/navigate documentation
+          * How to ask questions and get help
+      * Git and GitHub basics
+          * Beginner steps for working with git
+          * How to fork, clone, etc
+          * Maybe add images to make the process easier.
+          * Example page: https://glossary.cncf.io/contribute/
