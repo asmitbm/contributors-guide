@@ -9,7 +9,7 @@ We recommend you to check the Weaviate Module System to get better understanding
 * [Overview and High-Level Architecture](https://weaviate.io/developers/contributor-guide/current/weaviate-module-system/overview.html)
 * [Code-Level Architecture](https://weaviate.io/developers/contributor-guide/current/weaviate-module-system/architecture.html)
 
-Be sure to checkout the [folder structure](#folder-structure) to get high level overview of the repository.
+Be sure to checkout the [folder structure](Folder-structure.md) to get high level overview of the repository.
 
 #### How do I make a (good) suggestion for improvement?
 
