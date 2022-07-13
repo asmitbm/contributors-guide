@@ -1,0 +1,16 @@
+#### List of PRs made
+
+* [fix: link not redirecting #84](https://github.com/semi-technologies/weaviate-io/pull/84)
+* [feat: improve readme by adding detailed steps of installation #85](https://github.com/semi-technologies/weaviate-io/pull/85)
+* [Add .editorconfig for consistency #97](https://github.com/semi-technologies/weaviate-io/pull/97)
+* [Added jekyll-seo for better optimisation #98](https://github.com/semi-technologies/weaviate-io/pull/98)
+* [feat: made installation easier #102](https://github.com/semi-technologies/weaviate-io/pull/102)
+* [fix: version number in quickstart #105](https://github.com/semi-technologies/weaviate-io/pull/105)
+* [feat: add contributor guidelines #107](https://github.com/semi-technologies/weaviate-io/pull/107)
+* [fix: remove v0.23 from dropdown #116](https://github.com/semi-technologies/weaviate-io/pull/116)
+* [fix: improve build time #117](https://github.com/semi-technologies/weaviate-io/pull/117)
+* [fix: version number on quickstart #119](https://github.com/semi-technologies/weaviate-io/pull/119)
+* [feat: add sitemap #120](https://github.com/semi-technologies/weaviate-io/pull/120)
+* [feat: add doc feedback template #139](https://github.com/semi-technologies/weaviate-io/pull/139)
+* [doc: update CONTRIBUTING.md #145](https://github.com/semi-technologies/weaviate-io/pull/145)
+* [Rename readme.md to README.md #146](https://github.com/semi-technologies/weaviate-io/pull/146)
