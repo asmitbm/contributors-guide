@@ -27,7 +27,7 @@
 
 We are delighted to have you here. We are thrilled that you want to contribute to the Weaviate core, as together we can make Weaviate even better. We strive to build an engaging community and we encourage you to participate, share your ideas and make friends. As you become more acquainted with the community, there are several initiatives to consider, which are listed below. Everyone is welcome to join our [Slack](https://weaviate.slack.com/) channel and interact with other members of the community. Please change your Slack workspace display name to your name so that you can connect with other members more easily. 
 
-**We would recommend you to check out these resources**
+**We recommend you to check out these resources**
 
 Here are some suggested resources that would help you familiarize with Weaviate and it's applications:
 
@@ -46,7 +46,7 @@ Here are some suggested resources that would help you familiarize with Weaviate 
 
 # Join Weaviate Community
 
-To get involved with our community, please make sure you are familiar with the project's [Code of Conduct](https://www.semi.technology/playbooks/misc/code-of-conduct.html).
+To get involved in our community, please make sure you are familiar with the project's [Code of Conduct](https://www.semi.technology/playbooks/misc/code-of-conduct.html).
 
 We understand that navigating a new open source project can be difficult, and that it takes time to become acquainted with the code base. If at any point of time, you face any difficulties, don't hesitate to ask your doubts in `#general` channel on our [Slack](https://weaviate.slack.com/). Our team and community will help you solve your problem. 
 

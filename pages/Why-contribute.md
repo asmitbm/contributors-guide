@@ -1,6 +1,6 @@
 ## Why to contribute?
 
-A project like Weaviate is excellent for getting you knowledgeable of and experienced with Vector Search Engines, Docker, Kubernetes, GraphQL, REST and various other language clients. You will work on the forefront of search, ML/AI and cloud-native technologies - and all of it is open source. You will also get amazing networking opportunities with experienced software engineers who maintain this project. 
+A project like Weaviate is excellent for getting you acquainted and experienced with Vector Search Engines, Docker, Kubernetes, GraphQL, REST and various other language clients. You will work on the forefront of search, ML/AI and cloud-native technologies - and all of it is open source. You will also get amazing networking opportunities with experienced software engineers who maintain this project. 
 
 You also get to participate in mentorship programs like [Google Summer of Code](https://summerofcode.withgoogle.com/) and [Google Season of Docs](https://developers.google.com/season-of-docs)!!
      
