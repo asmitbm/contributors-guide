@@ -25,9 +25,45 @@ Enhancement suggestions are tracked as GitHub issues. Check if there's already a
 
 #### Setting up your development environment
 
+Follow the steps below to set up your local environment for development on Weaviate.
+
+Prerequisities
+
+* Go
+* Docker
+* Docker compose
+
+In order to run local development environment:
+
+Start up all dependencies (e.g. modules inference containers) and compile/run Weaviate locally. This script assumes a contextionary-based setup:
+
+**Default setup (contextionary module)**
+
+```
+tools/dev/restart_dev_environment.sh && ./tools/dev/run_dev_server.sh
+```
+
+You can also run with different modules, e.g.:
+
+**Transformers t2v only**
+
+```
+tools/dev/restart_dev_environment.sh --transformers && ./tools/dev/run_dev_server.sh local-transformers
+```
+
+**Contextionary t2v & Transformers QnA**
+
+```
+tools/dev/restart_dev_environment.sh --qna && ./tools/dev/run_dev_server.sh local-qna
+```
+
+The above commands are subject to change as we add more modules and require specific combinations for local testing. You can always inspect the two files to see which options are contained. The first option without any arguments is always guarateed to work.
+
+To make query search use this link for console: https://console.semi.technology/.
+
 There are multiple ways to set up a Weaviate instance. For a testing setup, we recommend you start with docker-compose. Cloud deployment can be used for small and larger projects. For production setup and/or large scale projects, we encourage you to use Kubernetes.
 
-For setting up your development environment, go through this detailed [quickstart guide](https://weaviate.io/developers/weaviate/current/getting-started/quick-start.html).
+For setting up your Weaviate instance, go through this detailed [quickstart guide](https://weaviate.io/developers/weaviate/current/getting-started/quick-start.html).
 
 #### Folder Structure
 

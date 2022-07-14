@@ -15,4 +15,4 @@ Bugs are tracked as [GitHub issues](https://github.com/semi-technologies/weaviat
 * **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem.
 * If the problem was not caused by a specific action, describe what you were doing before the problem occurred and provide the additional information.
 
-Also we recommend you to checkout this detailed guide on [Writing great Bug Reports](https://weaviate.io/developers/weaviate/current/tutorials/write-great-bug-reports.html) which will help our engineers to quickly identify and fix a bug there is some information that we may need.
+Also we recommend you to check out this detailed guide on [Writing great Bug Reports](https://weaviate.io/developers/weaviate/current/tutorials/write-great-bug-reports.html) which will help our engineers to quickly identify and fix a bug there is some information that we may need.
