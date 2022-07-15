@@ -3,5 +3,6 @@
     - <a href="#/pages/Suggesting-enhancements">Suggesting Enhancements</a>
     - <a href="#/pages/Reporting-bugs">Reporting Bugs</a>
     - <a href="#/pages/Improving-docs">Improving Documentation</a>
+    - <a href="#/pages/Writing-blogs">Writing blogs</a>
     - <a href="#/pages/My-contributions/README">My Contributions</a>
     - <a href="#/TO-DO">To-do List</a>

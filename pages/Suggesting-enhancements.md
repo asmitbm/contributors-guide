@@ -154,3 +154,11 @@ For setting up your Weaviate instance, go through this detailed [quickstart guid
     ├── traverser
     └── vectorizer
 ```
+
+#### Additional References
+
+We recommend that you read through these guides, which will provide you with a clear understanding of Weaviate's code structure and style, CI/CD philosophy, and so on. These will assist you in making more feature-rich recommendations.
+
+* [Code structure and style](https://weaviate.io/developers/contributor-guide/current/weaviate-core/structure.html)
+* [CI/CD Philosophy](https://weaviate.io/developers/contributor-guide/current/weaviate-core/cicd.html)
+* [Test philosophy of Weaviate](https://weaviate.io/developers/contributor-guide/current/weaviate-core/tests.html)
