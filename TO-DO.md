@@ -21,11 +21,15 @@ This is the to-do file for the contributors guide.
           * How to report bugs
           * How to contribute to documentation 
           * How to write blog posts
-          * How to get help (not sure this is the right)
           * How to use/navigate documentation
           * How to ask questions and get help
       * Git and GitHub basics
           * Beginner steps for working with git
           * How to fork, clone, etc
-          * Maybe add images to make the process easier.
           * Example page: https://glossary.cncf.io/contribute/
+
+
+Templates:
+
+* PR template in Awesome Weaviate repository
+* Issue and PR templates in Weaviate core
