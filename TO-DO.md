@@ -32,4 +32,5 @@ This is the to-do file for the contributors guide.
 Templates:
 
 * PR template in Awesome Weaviate repository
+* PR template in Weaviate Examples repository
 * Issue and PR templates in Weaviate core
