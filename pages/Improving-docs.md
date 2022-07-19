@@ -9,8 +9,6 @@ Weaviate documentation is made of these components:
 * Framework - Jekyll
 * Repository - https://github.com/semi-technologies/weaviate-io
 
-#### Setting up your development environment
-
 The site generates content using the following file types:
 
 * HTML files with extension .html
@@ -20,14 +18,17 @@ The data used by the site is stored in the form of following files:
 
 * YAML files with extension .yml
 
+#### Setting up your development environment
+
 To setup and install our documentation site on your local machine, follow the steps given below
 
 #### Dependencies
 
-- Software Dependencies
+- Software dependencies which are required to run Jekyll in your development environment
+  
   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-- Installing Dependencies in **Ubuntu/Debian**
+- Installing additional dependencies in **Ubuntu/Debian**
   ```bash
   # update repositories & install basic build dependencies
   sudo apt update && sudo apt install -y build-essential bash git rsync
@@ -45,11 +46,11 @@ To setup and install our documentation site on your local machine, follow the st
   rbenv install 2.7.5
   ```
 
-- Installing Dependencies Windows
+- Installing additional dependencies in **Windows**
   - Please use [WSL](https://docs.microsoft.com/en-us/windows/wsl/)
   - Read the [documentation](https://docs.microsoft.com/en-us/windows/wsl/install) on installing WSL on Windows.
 
-- Installing Dependencies in macOS
+- Installing additional dependencies in **MacOS**
   ```bash
   # install dependencies
   brew install rsync openssl rbenv ruby-build ruby-dev
@@ -65,12 +66,15 @@ To setup and install our documentation site on your local machine, follow the st
   ```
 
 #### Setting up the repository
-  
-- To get the site up and running locally, follow the below steps:
 
-  **PS.:** You need to have a full Bash environment. If you're on Windows, please use WSL.
+If you're new to git and GitHub, check out the beginners guide to [git and GitHub](Git-and-Github.md).
+  
+To get the site up and running locally, follow the below steps:
+
+  **PS.:** You need to have a full Bash environment. If you're on Windows, please use [WSL](https://docs.microsoft.com/en-us/windows/wsl/).
 
 - Fork the repository
+  
   You can get your own fork/copy of [weaviate.io](https://github.com/semi-technologies/weaviate-io) by using the `Fork` button
 
 - Create a local clone of the website:

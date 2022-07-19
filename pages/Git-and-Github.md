@@ -9,11 +9,11 @@ This is a beginner's guide to using git and GitHub to help you contribute to Wea
 
 * Simply click the `Fork` button on the GitHub website. That's how easy it is. This will create a copy of the repository in your account.
 
-<!--![fork repo](../assets/fork.png)-->
+![fork repo](../assets/fork.png)
 
 * Once you have done that, head over to your account, select the forked repository, and clone your repo to your local machine
 
-<!--![clone repo](../assets/clone.png)-->
+![clone repo](../assets/clone.png)
 
 ```
 git clone git@github.com:<USERNAME>/weaviate.git

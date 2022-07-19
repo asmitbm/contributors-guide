@@ -1,8 +1,14 @@
+*This page includes content for suggesting enhancements to the Weaviate core. Suggestions are in the form of issues*
+
 #### Suggesting Enhancements
 
-This section walks you through the process of submitting an enhancement for an addition to Weaviate core, such as a brand-new feature or a small change to an already-existing feature. Following these guidelines can help you make a better suggestion, and make it easier for the maintainers and the community to understand your proposal and find other similar suggestions.
+Hey! We are glad you want to improve our product by suggesting new feature(s). 
 
-When filling out the template, be sure to include the steps you would take if the requested feature were available.
+This section walks you through the process of submitting an enhancement for an addition to Weaviate core, such as a brand-new feature or a small change to an already-existing feature. 
+
+Following these guidelines can help you make a better suggestion, and make it easier for the maintainers and the community to understand your proposal and find other similar suggestions.
+
+When filling out the issue template, be sure to include the steps you would take if the requested feature were available.
 
 We recommend you to check the Weaviate Module System to get better understanding of how Weaviate works.
 
@@ -22,48 +28,6 @@ Enhancement suggestions are tracked as GitHub issues. Check if there's already a
 * **Include images, animated GIFs, or video links** that can be used to illustrate the steps or highlight the area of Weaviate that the suggestion relates to.
 * **Explain why this enhancement would be useful** to most Weaviate users.
 * Specify which **version of Weaviate** you're using. Check the version in your `docker-compose.yml` file.
-
-#### Setting up your development environment
-
-Follow the steps below to set up your local environment for development on Weaviate.
-
-Prerequisities
-
-* Go
-* Docker
-* Docker compose
-
-In order to run local development environment:
-
-Start up all dependencies (e.g. modules inference containers) and compile/run Weaviate locally. This script assumes a contextionary-based setup:
-
-**Default setup (contextionary module)**
-
-```
-tools/dev/restart_dev_environment.sh && ./tools/dev/run_dev_server.sh
-```
-
-You can also run with different modules, e.g.:
-
-**Transformers t2v only**
-
-```
-tools/dev/restart_dev_environment.sh --transformers && ./tools/dev/run_dev_server.sh local-transformers
-```
-
-**Contextionary t2v & Transformers QnA**
-
-```
-tools/dev/restart_dev_environment.sh --qna && ./tools/dev/run_dev_server.sh local-qna
-```
-
-The above commands are subject to change as we add more modules and require specific combinations for local testing. You can always inspect the two files to see which options are contained. The first option without any arguments is always guarateed to work.
-
-To make query search use this link for console: https://console.semi.technology/.
-
-There are multiple ways to set up a Weaviate instance. For a testing setup, we recommend you start with docker-compose. Cloud deployment can be used for small and larger projects. For production setup and/or large scale projects, we encourage you to use Kubernetes.
-
-For setting up your Weaviate instance, go through this detailed [quickstart guide](https://weaviate.io/developers/weaviate/current/getting-started/quick-start.html).
 
 #### Folder Structure
 
@@ -154,6 +118,52 @@ For setting up your Weaviate instance, go through this detailed [quickstart guid
     ├── traverser
     └── vectorizer
 ```
+
+#### Working on your suggestion
+
+We heavily appreciate your willingness to work on the product if you want to work on the enhancement/feature you suggested by contributing to the code. If you get stuck or run into problems while contributing code, our team will help you. Simply post your question in our [Slack](https://weaviate.slack.com/).
+
+#### Setting up your development environment
+
+Follow the steps below to set up your local environment for development on Weaviate.
+
+Prerequisities
+
+* Go
+* Docker
+* Docker compose
+
+In order to run local development environment:
+
+Start up all dependencies (e.g. modules inference containers) and compile/run Weaviate locally. This script assumes a contextionary-based setup:
+
+**Default setup (contextionary module)**
+
+```
+tools/dev/restart_dev_environment.sh && ./tools/dev/run_dev_server.sh
+```
+
+You can also run with different modules, e.g.:
+
+**Transformers t2v only**
+
+```
+tools/dev/restart_dev_environment.sh --transformers && ./tools/dev/run_dev_server.sh local-transformers
+```
+
+**Contextionary t2v & Transformers QnA**
+
+```
+tools/dev/restart_dev_environment.sh --qna && ./tools/dev/run_dev_server.sh local-qna
+```
+
+The above commands are subject to change as we add more modules and require specific combinations for local testing. You can always inspect the two files to see which options are contained. The first option without any arguments is always guarateed to work.
+
+To make query search use this link for console: https://console.semi.technology/.
+
+There are multiple ways to set up a Weaviate instance. For a testing setup, we recommend you start with docker-compose. Cloud deployment can be used for small and larger projects. For production setup and/or large scale projects, we encourage you to use Kubernetes.
+
+For setting up your Weaviate instance, go through this detailed [quickstart guide](https://weaviate.io/developers/weaviate/current/getting-started/quick-start.html).
 
 #### Additional References
 
