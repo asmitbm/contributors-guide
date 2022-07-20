@@ -13,3 +13,16 @@ and so forth. Be concise but not too brief.
 
 Fixes #12345.
 ```
+`tag` types:
+
+* **feat**: A new feature
+
+* **fix**: A bug fix
+
+* **docs**: Documentation only changes
+
+* **style**: Changes that do not affect the meaning of the code or documentation (white-space, spelling errors, missing semi-colons, line endings, etc)
+
+* **refactor**: A code change that neither fixes a bug or adds a feature
+
+* **perf**: A code change that improves performance
