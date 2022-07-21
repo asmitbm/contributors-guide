@@ -4,6 +4,7 @@
     - <a href="#/pages/Reporting-bugs">Reporting Bugs</a>
     - <a href="#/pages/Improving-docs">Improving Documentation</a>
     - <a href="#/pages/Writing-blogs">Writing blogs</a>
+    - <a href="#/pages/Creating-tutorials">Creating tutorials</a>
     - <a href="#/pages/Git-and-Github">git and GitHub guide</a>
     - <a href="#/pages/Commit-guidelines">Commit Guidelines</a>
     - <a href="#/pages/Labels">Labels</a>
