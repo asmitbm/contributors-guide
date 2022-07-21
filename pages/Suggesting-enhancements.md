@@ -2,13 +2,21 @@
 
 #### Suggesting Enhancements
 
-Hey! We are glad you want to improve our product by suggesting new feature(s). 
+Have some suggestions in your mind? We are glad you want to improve our product by suggesting new feature(s). We’d love to hear your ideas. We at Weaviate standardize the work, procedures and focus on continuous improvement.
+
+How suggesting enhancements will help you?
+
+* Receive timely feedback from engineers on requests.
+
+* Learn more about upcoming releases.
+
+* Increase your involvement over feature development
 
 This section walks you through the process of submitting an enhancement for an addition to Weaviate core, such as a brand-new feature or a small change to an already-existing feature. 
 
 Following these guidelines can help you make a better suggestion, and make it easier for the maintainers and the community to understand your proposal and find other similar suggestions.
 
-When filling out the issue template, be sure to include the steps you would take if the requested feature were available.
+You can still file an issue if you have an idea for a new feature but aren't sure where it should go. When filling out the issue template, be sure to include the steps you would take if the requested feature were available.
 
 We recommend you to check the Weaviate Module System to get better understanding of how Weaviate works.
 
@@ -28,6 +36,8 @@ Enhancement suggestions are tracked as GitHub issues. Check if there's already a
 * **Include images, animated GIFs, or video links** that can be used to illustrate the steps or highlight the area of Weaviate that the suggestion relates to.
 * **Explain why this enhancement would be useful** to most Weaviate users.
 * Specify which **version of Weaviate** you're using. Check the version in your `docker-compose.yml` file.
+
+In order to get your requests into these prioritization meetings, make sure they are clearly written with details about what you’re trying to accomplish (Your use cases) , your current workaround (if you have one), what problems you’re having, and any other details that will help build a case for why this is an important request to you. 
 
 #### Folder Structure
 
@@ -121,7 +131,7 @@ Enhancement suggestions are tracked as GitHub issues. Check if there's already a
 
 #### Working on your suggestion
 
-We heavily appreciate your willingness to work on the product if you want to work on the enhancement/feature you suggested by contributing to the code. If you get stuck or run into problems while contributing code, our team will help you. Simply post your question in our [Slack](https://weaviate.slack.com/).
+You want to work on the idea yourself? We heavily appreciate your willingness to work on the product if you want to work on the enhancement/feature you suggested by contributing to the code. If you get stuck or run into problems while contributing code, our team will help you. Simply post your question in our [Slack](https://weaviate.slack.com/).
 
 #### Setting up your development environment
 
