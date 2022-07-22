@@ -35,7 +35,13 @@ There are several templates available, such as documentation feedback, bug repor
 
 ![issue templates](../assets/issue_templates.png)
 
-#### Start by Forking
+##### Example Issue: Create a new issue
+
+![create a new issue](../assets/new_issue_temp.png)
+
+Fill out all of the information correctly. To learn more about what each field means, carefully read the description under each header.
+
+#### Forking the repository
 
 * Simply click the `Fork` button on the GitHub website. That's how easy it is. This will create a copy of the repository in your account.
 
