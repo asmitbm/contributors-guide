@@ -25,6 +25,16 @@ Check out [**GitHub Skills**](https://skills.github.com/), a learning program pr
 
 Now that you understand how git and GitHub work, let's get started on contributing to Weaviate!!
 
+#### Creating an issue
+
+You can also create an issue first and then work on it. Once you've decided which repository to work on, go to its issue tab and click "New issue."
+
+![new issue](../assets/new_issue.png)
+
+There are several templates available, such as documentation feedback, bug reporting, and so on. If you want to create your own custom issue, go to the bottom left of the issue list box and click "Open a blank issue."
+
+![issue templates](../assets/issue_templates.png)
+
 #### Start by Forking
 
 * Simply click the `Fork` button on the GitHub website. That's how easy it is. This will create a copy of the repository in your account.
