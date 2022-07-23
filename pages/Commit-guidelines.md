@@ -26,3 +26,5 @@ Fixes #12345.
 * **refactor**: A code change that neither fixes a bug or adds a feature
 
 * **perf**: A code change that improves performance
+
+Few tips for writing good commit messages:
