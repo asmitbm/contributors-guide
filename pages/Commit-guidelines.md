@@ -28,3 +28,9 @@ Fixes #12345.
 * **perf**: A code change that improves performance
 
 Few tips for writing good commit messages:
+
+The commit message is primarily for the benefit of the others, and they should be able to understand it both now and six months from now.
+
+Prefix your commit with one `tag`, to make it easier to know what type of change you have done.
+
+Use the present tense ("Add feature" not "Added feature")
