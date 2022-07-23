@@ -29,8 +29,14 @@ Fixes #12345.
 
 Few tips for writing good commit messages:
 
-The commit message is primarily for the benefit of the others, and they should be able to understand it both now and six months from now.
+* The commit message is primarily for the benefit of the others, and they should be able to understand it both now and six months from now.
 
-Prefix your commit with one `tag`, to make it easier to know what type of change you have done.
+* Prefix your commit with one `tag`, to make it easier to know what type of change you have done.
 
-Use the present tense ("Add feature" not "Added feature")
+* Use the present tense ("Add feature" not "Added feature")
+
+* If the commit fixes an issue, add a line on the last paragraph: "Fixes: #ISSUE_NUMBER.".
+
+* Leave out the trailing period (full stop).
+
+* Each line in description must not exceed 75 characters (there is no limit on number of lines).
