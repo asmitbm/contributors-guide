@@ -149,7 +149,7 @@ git branch -a
 
 #### Create a new branch to work on
 
-It's important to create a new branch whenever you start working on a new feature or bugfix. In addition to being standard git process, it also maintains your changes structured and distinct from the `main` branch so that you can submit and handle many pull requests with ease for each task you do.
+It's important to create a new branch whenever you start working on a new feature or bugfix. Do not change files when you are on your fork’s master branch. In addition to being standard git process, it also maintains your changes structured and distinct from the `main` branch so that you can submit and handle many pull requests with ease for each task you do.
 
 Create a new branch from the `main` branch to contain your changes. Give your branch its own simple informative name. 
 
@@ -167,10 +167,23 @@ git checkout feature/newPage    #checkout on created branch
 Or
 
 ```
-git checkout -b feature/newPage  #create a new branch and checkout
+git checkout -b feature/newPage  
 ```
+**Note:** 
+* `checkout` will switch to the newly created branch.
+* `-b` will create a new branch if the branch doesn’t already exist
 
 This will create a new branch and checkout to it. Now, start hacking away and making any modifications you want.
+
+#### Checking your work
+
+After you've fixed the issue and tested it (Tests are critical! Never submit a change that hasn't been tested), and you should keep track of your progress using this command:
+
+```
+git status
+```
+
+It will show you which files are currently being modified and which branch you're working on.
 
 #### Create a Pull Request
 
@@ -201,7 +214,7 @@ Here are some general guidelines about how to submit a pull request:
 
 * Write a good commit message. Check out [commit guidelines](Commit-guidelines.md)
 
-**How to create a pull request:**
+**Adding the files and commiting:**
 
 Make sure you are on your development branch
 
@@ -224,12 +237,15 @@ git status
 ```
 git commit -m "your commit message"
 ```
+**Pushing the commit:**
 
-* Push your changes to forked repository on GitHub
+* Now you must commit to the fork. All you have to do is:
 
 ```
 git push origin feature/newPage
 ```
+
+It will almost certainly ask for your GitHub login credentials. Enter them, and your commit will be pushed online on the GitHub repository.
 
 When all of your changes have been committed and pushed to GitHub, visit the page for your fork there, choose the development branch, and then press the `Compare & pull request` button. 
 
@@ -241,7 +257,7 @@ If you need to make any further commits to your pull request, simply check out y
 
 ![pull request template](../assets/pull_request_temp.png)
 
-* Once your changes are ready, make sure you self review your pull request to speed up the review process.
+* Once your changes are ready, make sure you [self review](#self-reviewing-pull-requests) your pull request to speed up the review process.
 
 #### Self reviewing pull requests
 
@@ -253,8 +269,10 @@ For any changes you commit, make sure that you:
 
 * Compare your pull request's source changes to staging to ensure that the output matches the source and that everything is rendering as expected. This assists in detecting issues such as typos or content that isn't rendering due to versioning issues.
 
-* Check for technical accuracy in the content. You can always [ask for help](https://join.slack.com/t/weaviate/shared_invite/zt-goaoifjr-o8FuVz9b1HLzhlUfyfddhw) if you get stuck.
+* Check for technical accuracy in the content. You can always [ask for help](https://weaviate.slack.com/) if you get stuck.
 
 * Verify that the syntax of new or updated Liquid statements is proper. Jekyll uses the [Liquid](https://shopify.github.io/liquid/) templating language to process templates.
 
-* If there are any failing checks in your PR, try troubleshooting them until they are passing or [ask for help](https://join.slack.com/t/weaviate/shared_invite/zt-goaoifjr-o8FuVz9b1HLzhlUfyfddhw).
+* If there are any failing checks in your PR, try troubleshooting them until they are passing or [ask for help](https://weaviate.slack.com/).
+
+#### What after submitting pull request?
