@@ -2,6 +2,8 @@
 
 The cardinal rule for creating good commits is to ensure there is only one "logical change" per commit. Why? Because more changes per commit may result in more bugs.
 
+#### Why do we need good commit messages
+
 #### How to write good commit messages
 
 A commit message consists of three parts:
@@ -10,7 +12,7 @@ A commit message consists of three parts:
 * [Description](#description)
 * [Issue reference](#issue-reference)
 
-Example commit
+Commit template
 
 ```
 tag: Short explanation of the commit
@@ -38,11 +40,11 @@ feat: Add blog pages
 
 * Use imperative present tense ("Add feature" not "Added feature")
 
-* Prefix your commit with one `tag`, to make it easier to know what type of change you have done. See the list of [tags](#tag-types) below
+* Prefix your commit with one `tag`, to make it easier to know what type of change you have done. See the list of **`tags`** below
 
 * Leave out the trailing period (full stop).
 
-###### `tag` types:
+`tag` types:
 
 * **`feat`**: A new feature
 
@@ -72,6 +74,8 @@ Blogs can be updated by adding markdown files to `_posts/blog/` folder.
 
 * The commit message is primarily for your and others' benefit, and they should be able to understand it both now and in the future.
 
+* If the summary is self-explanatory, you can omit writing the description.
+
 ##### Issue reference
 
 Example:
@@ -80,8 +84,6 @@ Example:
 Fixes: #123
 ```
 
-Few tips for writing good commit messages:
-
 * If the commit fixes an issue, add a line on the last paragraph: "Fixes: #ISSUE_NUMBER.".
 
-
+* The issue reference will add the commit link to the issue automatically.
