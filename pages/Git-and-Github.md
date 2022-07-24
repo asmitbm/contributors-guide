@@ -276,3 +276,11 @@ For any changes you commit, make sure that you:
 * If there are any failing checks in your PR, try troubleshooting them until they are passing or [ask for help](https://weaviate.slack.com/).
 
 #### What after submitting pull request?
+
+After you've created the Pull Request, there are two possibilities:
+
+* Your PR will be accepted, and your commit will be merged into the master branch, congratulations!
+
+* Your PR will be rejected/put on hold. There are two possibilities when a PR is rejected:
+  * Irrelevant or breaking changes
+  * Reviewer wants something changed
