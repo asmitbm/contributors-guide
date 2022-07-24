@@ -10,8 +10,7 @@ This is the to-do file for the contributors guide.
   * Why to contribute page:
     * Motivation - why you should contribute
     * Why other contribute
-    * Examples of contribution
-    * (idea) talk about GSoC and GSoD as an idea for the future that the newcomers could join
+      * (idea) talk about GSoC and GSoD as an idea for the future that the newcomers could join
   
   * How to contribute page:
       * Step by step on how to contribute:
@@ -33,4 +32,4 @@ Templates:
 
 * PR template in Awesome Weaviate repository
 * PR template in Weaviate Examples repository
-* Issue and PR templates in Weaviate core
+* [x] Issue and PR templates in Weaviate core
