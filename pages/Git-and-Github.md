@@ -231,11 +231,15 @@ git commit -m "your commit message"
 git push origin feature/newPage
 ```
 
-When all of your changes have been committed and pushed to GitHub, visit the page for your fork there, choose the development branch, and then press the `Create pull request` button. 
+When all of your changes have been committed and pushed to GitHub, visit the page for your fork there, choose the development branch, and then press the `Compare & pull request` button. 
+
+![create pull request](../assets/pull_request.png)
 
 If you need to make any further commits to your pull request, simply check out your development branch and push the updates to GitHub. Your pull request will automatically keep track of and update the commits made to your development branch.
 
-* Complete the pull request by filling out our [pull request template](https://github.com/semi-technologies/weaviate-io/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+* Complete the pull request by filling out our [pull request template](https://github.com/semi-technologies/weaviate/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
+
+![pull request template](../assets/pull_request_temp.png)
 
 * Once your changes are ready, make sure you self review your pull request to speed up the review process.
 
