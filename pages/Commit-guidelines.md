@@ -44,13 +44,23 @@ Commit template
 
 ```
 tag: short explanation of the commit
-
-Longer explanation explaining exactly what's changed and why, whether
-any documentation or web feature has been changed, what bugs were fixed
-and so forth. Be concise but not too brief.
-
-Fixes #123.
 ```
+**Note:** This is how the commit message should appear when you use git to commit files and push them to GitHub.
+
+```
+Why:
+This PR fixes: [issue link]
+
+What's being changed:
+
+Type of change:
+ Bug fix (non-breaking change which fixes an issue)
+ Feature or enhancements (non-breaking change which adds functionality)
+ Documentation updates (non-breaking change which updates documents)
+
+How Has This Been Tested?
+```
+**Note:** This is a pull request template which you have to fill out while creating a pull request on GitHub.
 
 It is preferable to follow these guidelines for each patch before pushing it to git.
 
@@ -91,10 +101,11 @@ feat: add blog pages
 Example:
 
 ```
+Why:
 This PR fixes: #123
 ```
 
-* If the commit fixes an issue, add a line on the last paragraph: "Fixes: #ISSUE_NUMBER.".
+* If the commit fixes an issue, reference that issue using `#` symbol: "This PR fixes: #ISSUE_NUMBER.".
 
 * The issue reference will add the commit link to the issue automatically.
 
@@ -105,9 +116,6 @@ Every repository has a [pull request template](https://github.com/semi-technolog
 Example:
 
 ```
-Why:
-This PR fixes: #12
-
 What's being changed:
 
 This pull request adds blog page feature to the documentation website, 
@@ -122,12 +130,14 @@ Type of change:
 
 How Has This Been Tested?
 
-Tested locally by building and running the site
+This has been tested locally by building and running the site
 ```
 
 * Each description line must be no more than 75 characters long (there is no limit on number of lines).
 
 * You should explain why the changes were made. This is especially important for complex, non-self-explanatory changes.
+
+* You must select the type of change you made. Remove the irrelevant options from the list by putting a `x` in the square brackets in front of the type of change.
 
 * The commit message is primarily for your and others' benefit, and they should be able to understand it both now and in the future.
 
@@ -140,6 +150,11 @@ Tested locally by building and running the site
 ```
 fix: static version number on quickstart page
 
+Why:
+This PR fixes: #103
+
+What's being changed:
+
 In quick-start.md file of every version, the version present in the example 
 didn't match the configuration. This problem was caused due to variable 
 weaviate_version which had hard-coded value of v1.12.1. This caused all 
@@ -149,7 +164,9 @@ Workaround for this was to include a this tag, which identified current
 version of the page and call the variable current_page_version in front 
 of version key.
 
-Fixes: #103
+How Has This Been Tested?
+
+This has been tested locally by building and running the site
 ```
 
 * Implementing a feature
