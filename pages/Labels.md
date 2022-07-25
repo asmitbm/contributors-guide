@@ -71,3 +71,17 @@
 * `do-not-merge`: If the PR is in WIP or if changes requested are not implemented.
 
 * `ready-to-merge`: All checks have passed, reviewer has approved the PR.
+
+#### Awesome Weaviate
+
+* `blog`: Addition of blog.
+
+* `podcast`: Addition of podcast.
+
+* `presentation`: Addition of presentations at conferences.
+
+* `interview`: Addition of any interviews given.
+
+* `video`: Video links to Weaviate demos.
+
+* `datasets`: Any demo dataset used as an example.
