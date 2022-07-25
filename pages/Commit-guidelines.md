@@ -12,13 +12,33 @@ The cardinal rule for creating good commits is to ensure there is only one "logi
 
 * Writing good commit messages will help you become a better software developer in the long run.
 
+Examples of **good commit messages**:
+
+* `feat: add sitemap plugin to the website`
+
+* `chore: update ruby version to 2.7.5`
+
+* `fix: update version number dynamically`
+
+* `docs: fix typo in introduction to user guide`
+
+Example of **bad commit messages**:
+
+* `Fixed typo in the doc`
+
+* `Changed CSS style`
+
+* `modified README.md`
+
+* `Added search feature in the docs`
+
 #### How to write good commit messages
 
 A commit message consists of three parts:
 
 * [Summary line](#summary-line)
-* [Description](#description)
 * [Issue reference](#issue-reference)
+* [Description](#description)
 
 Commit template
 
@@ -66,14 +86,43 @@ feat: add blog pages
 
 * **`perf`**: A code change that improves performance
 
-##### Description
+##### Issue reference
 
 Example:
 
 ```
+This PR fixes: #123
+```
+
+* If the commit fixes an issue, add a line on the last paragraph: "Fixes: #ISSUE_NUMBER.".
+
+* The issue reference will add the commit link to the issue automatically.
+
+##### Description
+
+Every repository has a [pull request template](https://github.com/semi-technologies/weaviate-io/blob/main/.github/PULL_REQUEST_TEMPLATE.md) with a specific set of headers that you can use to write the body of commit messages.
+
+Example:
+
+```
+Why:
+This PR fixes: #12
+
+What's being changed:
+
 This pull request adds blog page feature to the documentation website, 
 where people can read about Weaviate's latest releases. 
 Blogs can be updated by adding markdown files to `_posts/blog/` folder.
+
+Type of change:
+
+[] Bug fix (non-breaking change which fixes an issue)
+[x] Feature or enhancements (non-breaking change which adds functionality)
+[] Documentation updates (non-breaking change which updates documents)
+
+How Has This Been Tested?
+
+Tested locally by building and running the site
 ```
 
 * Each description line must be no more than 75 characters long (there is no limit on number of lines).
@@ -84,14 +133,39 @@ Blogs can be updated by adding markdown files to `_posts/blog/` folder.
 
 * If the summary is self-explanatory, you can omit writing the description.
 
-##### Issue reference
+#### More Examples
 
-Example:
+* Fixing a bug
 
 ```
-Fixes: #123
+fix: static version number on quickstart page
+
+In quick-start.md file of every version, the version present in the example 
+didn't match the configuration. This problem was caused due to variable 
+weaviate_version which had hard-coded value of v1.12.1. This caused all 
+the pages to show fix version.
+
+Workaround for this was to include a this tag, which identified current 
+version of the page and call the variable current_page_version in front 
+of version key.
+
+Fixes: #103
 ```
 
-* If the commit fixes an issue, add a line on the last paragraph: "Fixes: #ISSUE_NUMBER.".
+* Implementing a feature
 
-* The issue reference will add the commit link to the issue automatically.
+```
+feat: add copy to clipboard functionality to docs
+
+The documentation site contains a large number of code snippets that we 
+need to manually copy. The addition of a copy to clipboard functionality 
+will make it easier to copy the codes and reuse them.
+```
+
+* Documentation changes
+
+```
+docs: fix typo in getting started docker-compose example
+
+This PR corrects a typo in developers/weaviate/current/getting-started/installation.md, where the docker-compose.yml example lacks a '. The docker-compose.yml file previously did not work, but it now does.
+```
