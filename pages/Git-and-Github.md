@@ -232,7 +232,7 @@ You can also use `git add .` to stage all the files, but it is not recommended t
 git status
 ```
 
-* If everything is good to go, proceed with commiting your changes with a good commit message
+* If everything is good to go, proceed with commiting your changes with a **good commit message**. More information on how to write good commit messages can be found on this [page](Commit-guidelines.md).
 
 ```
 git commit -m "your commit message"
