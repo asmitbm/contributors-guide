@@ -54,9 +54,9 @@ This PR fixes: [issue link]
 What's being changed:
 
 Type of change:
- Bug fix (non-breaking change which fixes an issue)
- Feature or enhancements (non-breaking change which adds functionality)
- Documentation updates (non-breaking change which updates documents)
+[] Bug fix (non-breaking change which fixes an issue)
+[] Feature or enhancements (non-breaking change which adds functionality)
+[] Documentation updates (non-breaking change which updates documents)
 
 How Has This Been Tested?
 ```
@@ -111,7 +111,7 @@ This PR fixes: #123
 
 ##### Description
 
-Every repository has a [pull request template](https://github.com/semi-technologies/weaviate-io/blob/main/.github/PULL_REQUEST_TEMPLATE.md) with a specific set of headers that you can use to write the body of commit messages.
+Every repository has a [pull request template](https://github.com/semi-technologies/weaviate-io/blob/main/.github/PULL_REQUEST_TEMPLATE.md) with a specific set of headers that you can use to write the body of commit messages. You can modify this template at the time of making a pull request and exclude the parts which is not necessary.
 
 Example:
 
@@ -143,6 +143,8 @@ This has been tested locally by building and running the site
 
 * If the summary is self-explanatory, you can omit writing the description.
 
+* Tests are essential, and you should describe how you tested your changes locally and whether you discovered any other breaking changes.
+
 #### More Examples
 
 * Fixing a bug
@@ -164,6 +166,10 @@ Workaround for this was to include a this tag, which identified current
 version of the page and call the variable current_page_version in front 
 of version key.
 
+Type of change:
+
+[x] Bug fix (non-breaking change which fixes an issue)
+
 How Has This Been Tested?
 
 This has been tested locally by building and running the site
@@ -174,9 +180,19 @@ This has been tested locally by building and running the site
 ```
 feat: add copy to clipboard functionality to docs
 
+What's being changed:
+
 The documentation site contains a large number of code snippets that we 
 need to manually copy. The addition of a copy to clipboard functionality 
 will make it easier to copy the codes and reuse them.
+
+Type of change:
+
+[x] Feature or enhancements (non-breaking change which adds functionality)
+
+How Has This Been Tested?
+
+This has been tested locally by building and running the site
 ```
 
 * Documentation changes
@@ -184,5 +200,17 @@ will make it easier to copy the codes and reuse them.
 ```
 docs: fix typo in getting started docker-compose example
 
-This PR corrects a typo in developers/weaviate/current/getting-started/installation.md, where the docker-compose.yml example lacks a '. The docker-compose.yml file previously did not work, but it now does.
+What's being changed:
+
+This PR corrects a typo in developers/weaviate/current/getting-started/
+installation.md, where the docker-compose.yml example lacks a '. The 
+docker-compose.yml file previously did not work, but it now does.
+
+Type of change:
+
+[x] Documentation updates (non-breaking change which updates documents)
+
+How Has This Been Tested?
+
+This has been tested locally by building and running the site
 ```
