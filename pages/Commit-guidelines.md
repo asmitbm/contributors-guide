@@ -4,6 +4,14 @@ The cardinal rule for creating good commits is to ensure there is only one "logi
 
 #### Why do we need good commit messages
 
+* Good commit messages are simpler to read. Reviewers and contributors will be able to review more quickly, find more bugs, and suggest changes as needed.
+
+* Commit messages serve as documentation for your code changes. You can easily search the commit history for the commit that caused the bug in the first place.
+
+* Writing good commit messages makes it easier for people to contribute to your projects because it allows them to navigate a more structured commit history.
+
+* Writing good commit messages will help you become a better software developer in the long run.
+
 #### How to write good commit messages
 
 A commit message consists of three parts:
@@ -15,7 +23,7 @@ A commit message consists of three parts:
 Commit template
 
 ```
-tag: Short explanation of the commit
+tag: short explanation of the commit
 
 Longer explanation explaining exactly what's changed and why, whether
 any documentation or web feature has been changed, what bugs were fixed
@@ -31,14 +39,14 @@ It is preferable to follow these guidelines for each patch before pushing it to 
 Example:
 
 ```
-feat: Add blog pages
+feat: add blog pages
 ```
 
 * Be sure to not exceed 50 characters. Maintaining summary lines at this length makes them readable and provides a clear explanation of the change.
 
-* After adding `tag`, the summary line should begin with a capital letter, unless it begins with a lowercase symbol or identifier.
+* After adding `tag`, the summary line should begin with a lowercase letter, unless it begins with a symbol or identifier.
 
-* Use imperative present tense ("Add feature" not "Added feature")
+* Use imperative present tense ("add feature" not "added feature")
 
 * Prefix your commit with one `tag`, to make it easier to know what type of change you have done. See the list of **`tags`** below
 
