@@ -1,5 +1,3 @@
-*This page includes content for suggesting enhancements to the Weaviate core. Suggestions are in the form of issues*
-
 #### Suggesting Enhancements
 
 Have some suggestions in your mind? We are glad you want to improve our product by suggesting new feature(s). We’d love to hear your ideas. We at Weaviate standardize the work, procedures and focus on continuous improvement.
