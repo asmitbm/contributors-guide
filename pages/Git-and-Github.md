@@ -1,3 +1,5 @@
+#### Contributing to Weaviate using git and GitHub
+
 This is a beginner's guide to using git and GitHub to help you contribute to Weaviate. There are four main GitHub repositories of Weaviate, which you can contribute to as beginner. This includes:
 
 * [Weaviate](https://github.com/semi-technologies/weaviate) - our main product Weaviate core
