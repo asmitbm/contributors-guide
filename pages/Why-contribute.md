@@ -4,7 +4,7 @@ A project like Weaviate is excellent for getting you acquainted and experienced 
 
 You also get to participate in mentorship programs like [Google Summer of Code](https://summerofcode.withgoogle.com/) and [Google Season of Docs](https://developers.google.com/season-of-docs)!!
      
-## Ways of Contributing
+## Ways of contributing
 
 There are numerous exciting ways to contribute to the Weaviate core. The list below illustrates how contributions are acknowledged in the project:
 
