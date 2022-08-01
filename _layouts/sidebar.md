@@ -8,5 +8,6 @@
     - <a href="#/pages/Git-and-Github">git and GitHub guide</a>
     - <a href="#/pages/Commit-guidelines">Commit Guidelines</a>
     - <a href="#/pages/Labels">Labels</a>
+    - <a href="#/pages/Documentation-style">Documentation Style</a>
     - <a href="#/pages/My-contributions/README">My Contributions</a>
     - <a href="#/TO-DO">To-do List</a>
