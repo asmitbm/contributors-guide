@@ -1,0 +1,1 @@
+#### What Weaviate Documentation Style Guide should contain  
