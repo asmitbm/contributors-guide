@@ -26,6 +26,9 @@
 **Links**
 * Cross references
 * Link text
+* Links to external documentation
+* Links to internal documentation
+* Authoritive Sources
 
 References:
 * [MongoDB Style Guide](https://www.mongodb.com/docs/meta/style-guide/)
