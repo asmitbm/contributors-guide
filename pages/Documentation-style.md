@@ -30,6 +30,11 @@
 * Links to internal documentation
 * Authoritive Sources
 
+**Accessibilty**
+* Images
+* Links and hypertext
+* Tables
+
 References:
 * [MongoDB Style Guide](https://www.mongodb.com/docs/meta/style-guide/)
 * [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
