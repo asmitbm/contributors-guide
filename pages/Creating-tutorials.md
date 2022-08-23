@@ -8,7 +8,7 @@ Go ahead and submit a pull request in [Weaviate Examples](https://github.com/sem
 
 Similar to [writing technical blogs](Writing-blogs.md), you can even create awesome apps you built using Weaviate! 
 
-Your task would be to create a demo application that uses Weaviate under the hood. It can be anything! A Web app, mobile app or demos showing certain [integrations](https://weaviate.io/product.html).
+You could also contribute by creating a demo application that uses Weaviate under the hood. It can be anything! A Web app, mobile app or demos showing certain [integrations](https://weaviate.io/product.html).
 
 A few things to note:
 
